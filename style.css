@@ -16,12 +16,15 @@ h1{
   font-size: 9em;
   text-align: center;
   text-transform: uppercase;
+  color: black;
 }
 
 h2{
   font-size: 5em;
   text-align: center;
   text-transform: uppercase;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
 }
 
 h3{
@@ -47,4 +50,16 @@ h5{
   font-size: 2em;
   text-decoration: none;
   color: white;
+}
+
+.quote{
+  font-size: 2.5em;
+  color: rgb(	0, 0, 0);
+}
+
+.header{
+  height: 650px;
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  position: 0 0;
+  size: cover;
 }
