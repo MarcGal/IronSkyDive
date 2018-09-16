@@ -85,3 +85,23 @@ h5{
   color: white;
 }
 
+.service-box{
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.service-box img{
+  width: 125px;
+}
+
+.section-text{
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.member-name{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+
