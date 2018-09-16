@@ -63,3 +63,25 @@ h5{
   position: 0 0;
   size: cover;
 }
+
+.dark-background{
+  background-color: rgb(25, 33, 41);
+  color: white;
+}
+
+.text{
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.link-btn{
+  background-color: rgb(	67, 163, 230);
+  font-family: Roboto-Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
