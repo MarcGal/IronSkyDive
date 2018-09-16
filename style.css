@@ -46,6 +46,7 @@ h5{
   background-color: rgb(25, 33, 41);
   color: white;
   padding: 14px 0px;
+  height: 40px;
 }
 
 .nav-bar-item{
@@ -61,15 +62,23 @@ h5{
 
 .nav-bar-li{
   list-style-type:none;
+  text-decoration: none;
   text-align: center;
+  float: left;
+  width: 33%;
+  color: white;
 }
 
 .quote{
   font-size: 2.5em;
   color: rgb(	0, 0, 0);
+  position: absolute;
+  left: 10%;
+  bottom: 15vh;
 }
 
 .header{
+  position: relative;
   height: 650px;
   background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
   position: 0 0;
@@ -103,6 +112,11 @@ h5{
   text-align: center;
   text-decoration: none;
   color: white;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0 auto;
+  padding: 14px 20px 14px 20px;
+  border-width: 2px solid black 0.2;
 }
 
 .service-box{
@@ -135,6 +149,8 @@ h5{
 .member-name{
   font-size: 1.5em;
   font-weight: 700;
+  display: block;
+  text-align: center;
 }
 
 .footer{
@@ -154,4 +170,26 @@ h5{
   color: rgb(	67, 163, 230);
   text-decoration: none;
   list-style-type: none;
+}
+
+.col{
+  float: left;
+}
+
+.col-3{
+  width: 30%;
+}
+
+.col-middle{
+  margin: 0 5% 05%;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.map-frame{
+  height: 375px;
+  float: right;
+  width: 60%;
 }
