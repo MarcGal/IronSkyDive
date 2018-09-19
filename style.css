@@ -198,8 +198,14 @@ h5{
 }
 
 .schedule-table{
-  margin: 0 auto 40px auto;
+  margin: 0 auto 40px;
   font-size: 1.5em;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border-bottom: 1px solid #000;
+  padding: 5px 10px;
 }
 
 .slot-form-container{
