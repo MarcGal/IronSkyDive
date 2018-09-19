@@ -201,3 +201,22 @@ h5{
   margin: 0 auto 40px auto;
   font-size: 1.5em;
 }
+
+.slot-form-container{
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.slot-form-container label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.slot-form-container input select{
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
