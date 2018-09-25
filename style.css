@@ -61,8 +61,8 @@ h5{
 }
 
 .nav-bar-li{
-  list-style-type: none;
   text-decoration: none;
+  list-style-type: none;
   text-align: center;
   float: left;
   width: 33%;
